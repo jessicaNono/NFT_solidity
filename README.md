@@ -9,4 +9,4 @@ Documentation (fr): https://jessicanono.filparty.com/nft-sur-ethereum
 ### Deploy "LTL" to the network filparty(https://github.com/filparty/filparty_network)
 
 * Using truffle: truffle migrate --network filparty
-* see truffle.config.js
+* see truffle-config.js
