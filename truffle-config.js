@@ -18,8 +18,9 @@
  *
  */
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
-//
+const mnemonic = "prefer umbrella border animal client when report twin wash dad ocean spoon";
+const HDWalletProvider = require('truffle-hdwallet-provider');
+
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
@@ -45,6 +46,20 @@ module.exports = {
         host: "127.0.0.1",     // Localhost (default: none)
         port: 8545,            // Standard Ethereum port (default: none)
         network_id: "*",       // Any network (default: none)
+    },
+
+    filparty: {
+      provider: () => new HDWalletProvider(mnemonic, `https://api.filparty.com:9071`),
+      network_id: "1989",
+      gas: 4600000
+
+
+    },
+    rinkeby: {
+      provider: () => new HDWalletProvider(mnemonic, `https://api.filparty.com:9070`),
+      network_id: "4"
+
+
     },
     // Another network with more advanced options...
     // advanced: {
