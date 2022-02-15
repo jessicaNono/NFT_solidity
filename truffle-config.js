@@ -18,7 +18,7 @@
  *
  */
 
-const mnemonic = "prefer umbrella border animal client when report twin wash dad ocean spoon";
+const mnemonic = "your mnemonic here";
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
 // const fs = require('fs');
