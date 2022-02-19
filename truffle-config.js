@@ -18,7 +18,7 @@
  *
  */
 
-const mnemonic = "your mnemonic here";
+//const mnemonic = "your mnemonic here ";
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
 // const fs = require('fs');
@@ -48,19 +48,19 @@ module.exports = {
         network_id: "*",       // Any network (default: none)
     },
 
-    filparty: {
+  /*  filparty: {
       provider: () => new HDWalletProvider(mnemonic, `https://api.filparty.com:9071`),
       network_id: "1989",
       gas: 4600000
 
 
-    },
+    },*//*
     rinkeby: {
       provider: () => new HDWalletProvider(mnemonic, `https://api.filparty.com:9070`),
       network_id: "4"
 
 
-    },
+    },*/
     // Another network with more advanced options...
     // advanced: {
     // port: 8777,             // Custom port
